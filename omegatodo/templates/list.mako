@@ -39,7 +39,7 @@
     <span class="green"}> <div align = left>${task['name']} ${task['due']}  </div> 
     <div align=right>
     [<a href="${request.route_url('edit', id=task['id'])}">bearbeiten</a>]
-    [<a href="${request.route_url('open', id=task['id'])}">Aktivieren</a>] 
+    [<a href="${request.route_url('open', id=task['id'])}">aktivieren</a>] 
     [<a href="${request.route_url('delete', id=task['id'])}">löschen</a>]   
     </div>
   </span>

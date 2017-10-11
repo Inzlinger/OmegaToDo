@@ -15,7 +15,7 @@
 
 <ul id="all">
 % if tasks[0]:
- <li class="divider", id="activeheader">Aktive Aufgaben</li>
+ <li class="divider", id="activeheader">Aktive Aufgaben:</li>
  <ul id="active">
   % for task in tasks[0]: 
   <li id="${task['id']}")>
@@ -29,7 +29,7 @@
   % endfor
   </ul>
 % else:
-  <li>Es sind keine Aktiven Aufgaben vorhanden!</li>
+  <li>Es sind keine aktiven Aufgaben vorhanden!</li>
 % endif
 % if tasks[1]:
   <li>Erledigte Aufgaben:</li>
@@ -46,7 +46,7 @@
   </li>
   % endfor
 % else:
-  <li>Es sind keine Erledigten Aufgaben vorhanden!</li>
+  <li>Es sind keine erledigten Aufgaben vorhanden!</li>
 % endif
 </ul>
 <ul id="new", class="tasks">

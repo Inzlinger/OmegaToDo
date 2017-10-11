@@ -1,2 +1,2 @@
 # omegatodo
-Ein simples Webinterface zum pflegen einer ToDo-Liste.
+Ein simples Webinterface für eine ToDo-Liste.
